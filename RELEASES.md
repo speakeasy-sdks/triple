@@ -58,3 +58,14 @@ Based on:
 - Speakeasy CLI 1.74.17 (2.88.5) https://github.com/speakeasy-api/speakeasy
 ### Generated
 - [python v0.3.1] python
+
+## 2023-08-31 00:32:34
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.76.0 (2.89.1) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [go v1.1.0] go
+- [python v0.4.0] python
+### Releases
+- [Go v1.1.0] https://github.com/speakeasy-sdks/triple/releases/tag/go/v1.1.0 - go
