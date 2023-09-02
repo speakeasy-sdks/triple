@@ -80,3 +80,11 @@ Based on:
 - [python v0.5.0] python
 ### Releases
 - [Go v1.1.0] https://github.com/speakeasy-sdks/triple/releases/tag/go/v1.1.0 - go
+
+## 2023-09-02 00:30:48
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.77.2 (2.93.0) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [python v0.5.0] python
