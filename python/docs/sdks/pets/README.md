@@ -79,7 +79,7 @@ from triple.models import operations
 s = triple.Triple()
 
 req = operations.ShowPetByIDRequest(
-    pet_id='South bandwidth male',
+    pet_id='Bicycle',
 )
 
 res = s.pets.show_pet_by_id(req)
