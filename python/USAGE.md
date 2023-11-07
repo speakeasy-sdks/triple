@@ -4,7 +4,6 @@
 ```python
 import triple
 
-
 s = triple.Triple()
 
 

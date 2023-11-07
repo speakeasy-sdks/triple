@@ -1,5 +1,5 @@
 # Pets
-(*Pets*)
+(*.Pets*)
 
 ### Available Operations
 
@@ -19,7 +19,7 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/triple"
+	triple "github.com/speakeasy-sdks/triple/v2"
 )
 
 func main() {
@@ -61,8 +61,8 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/triple"
-	"github.com/speakeasy-sdks/triple/pkg/models/operations"
+	triple "github.com/speakeasy-sdks/triple/v2"
+	"github.com/speakeasy-sdks/triple/v2/pkg/models/operations"
 )
 
 func main() {
@@ -105,8 +105,8 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/triple"
-	"github.com/speakeasy-sdks/triple/pkg/models/operations"
+	triple "github.com/speakeasy-sdks/triple/v2"
+	"github.com/speakeasy-sdks/triple/v2/pkg/models/operations"
 )
 
 func main() {

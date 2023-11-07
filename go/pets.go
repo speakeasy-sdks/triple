@@ -6,27 +6,27 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/speakeasy-sdks/triple/pkg/models/operations"
-	"github.com/speakeasy-sdks/triple/pkg/models/sdkerrors"
-	"github.com/speakeasy-sdks/triple/pkg/models/shared"
-	"github.com/speakeasy-sdks/triple/pkg/utils"
+	"github.com/speakeasy-sdks/triple/v2/pkg/models/operations"
+	"github.com/speakeasy-sdks/triple/v2/pkg/models/sdkerrors"
+	"github.com/speakeasy-sdks/triple/v2/pkg/models/shared"
+	"github.com/speakeasy-sdks/triple/v2/pkg/utils"
 	"io"
 	"net/http"
 	"strings"
 )
 
-type pets struct {
+type Pets struct {
 	sdkConfiguration sdkConfiguration
 }
 
-func newPets(sdkConfig sdkConfiguration) *pets {
-	return &pets{
+func newPets(sdkConfig sdkConfiguration) *Pets {
+	return &Pets{
 		sdkConfiguration: sdkConfig,
 	}
 }
 
 // CreatePets - Create a pet
-func (s *pets) CreatePets(ctx context.Context) (*operations.CreatePetsResponse, error) {
+func (s *Pets) CreatePets(ctx context.Context) (*operations.CreatePetsResponse, error) {
 	baseURL := utils.ReplaceParameters(s.sdkConfiguration.GetServerDetails())
 	url := strings.TrimSuffix(baseURL, "/") + "/pets"
 
@@ -63,6 +63,10 @@ func (s *pets) CreatePets(ctx context.Context) (*operations.CreatePetsResponse, 
 	httpRes.Body = io.NopCloser(bytes.NewBuffer(rawBody))
 	switch {
 	case httpRes.StatusCode == 201:
+	case httpRes.StatusCode >= 400 && httpRes.StatusCode < 500:
+		fallthrough
+	case httpRes.StatusCode >= 500 && httpRes.StatusCode < 600:
+		return nil, sdkerrors.NewSDKError("API error occurred", httpRes.StatusCode, string(rawBody), httpRes)
 	default:
 		switch {
 		case utils.MatchContentType(contentType, `application/json`):
@@ -81,7 +85,7 @@ func (s *pets) CreatePets(ctx context.Context) (*operations.CreatePetsResponse, 
 }
 
 // ListPets - List all pets
-func (s *pets) ListPets(ctx context.Context, request operations.ListPetsRequest) (*operations.ListPetsResponse, error) {
+func (s *Pets) ListPets(ctx context.Context, request operations.ListPetsRequest) (*operations.ListPetsResponse, error) {
 	baseURL := utils.ReplaceParameters(s.sdkConfiguration.GetServerDetails())
 	url := strings.TrimSuffix(baseURL, "/") + "/pets"
 
@@ -135,6 +139,10 @@ func (s *pets) ListPets(ctx context.Context, request operations.ListPetsRequest)
 		default:
 			return nil, sdkerrors.NewSDKError(fmt.Sprintf("unknown content-type received: %s", contentType), httpRes.StatusCode, string(rawBody), httpRes)
 		}
+	case httpRes.StatusCode >= 400 && httpRes.StatusCode < 500:
+		fallthrough
+	case httpRes.StatusCode >= 500 && httpRes.StatusCode < 600:
+		return nil, sdkerrors.NewSDKError("API error occurred", httpRes.StatusCode, string(rawBody), httpRes)
 	default:
 		switch {
 		case utils.MatchContentType(contentType, `application/json`):
@@ -153,7 +161,7 @@ func (s *pets) ListPets(ctx context.Context, request operations.ListPetsRequest)
 }
 
 // ShowPetByID - Info for a specific pet
-func (s *pets) ShowPetByID(ctx context.Context, request operations.ShowPetByIDRequest) (*operations.ShowPetByIDResponse, error) {
+func (s *Pets) ShowPetByID(ctx context.Context, request operations.ShowPetByIDRequest) (*operations.ShowPetByIDResponse, error) {
 	baseURL := utils.ReplaceParameters(s.sdkConfiguration.GetServerDetails())
 	url, err := utils.GenerateURL(ctx, baseURL, "/pets/{petId}", request, nil)
 	if err != nil {
@@ -204,6 +212,10 @@ func (s *pets) ShowPetByID(ctx context.Context, request operations.ShowPetByIDRe
 		default:
 			return nil, sdkerrors.NewSDKError(fmt.Sprintf("unknown content-type received: %s", contentType), httpRes.StatusCode, string(rawBody), httpRes)
 		}
+	case httpRes.StatusCode >= 400 && httpRes.StatusCode < 500:
+		fallthrough
+	case httpRes.StatusCode >= 500 && httpRes.StatusCode < 600:
+		return nil, sdkerrors.NewSDKError("API error occurred", httpRes.StatusCode, string(rawBody), httpRes)
 	default:
 		switch {
 		case utils.MatchContentType(contentType, `application/json`):

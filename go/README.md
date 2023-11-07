@@ -15,7 +15,7 @@ package main
 
 import (
 	"context"
-	"github.com/speakeasy-sdks/triple"
+	triple "github.com/speakeasy-sdks/triple/v2"
 	"log"
 )
 
@@ -40,7 +40,7 @@ func main() {
 ## Available Resources and Operations
 
 
-### [Pets](docs/sdks/pets/README.md)
+### [.Pets](docs/sdks/pets/README.md)
 
 * [CreatePets](docs/sdks/pets/README.md#createpets) - Create a pet
 * [ListPets](docs/sdks/pets/README.md#listpets) - List all pets
@@ -77,8 +77,6 @@ Here's an example of one such pagination call:
 # Error Handling
 
 Handling errors in your SDK should largely match your expectations.  All operations return a response object or an error, they will never return both.  When specified by the OpenAPI spec document, the SDK will return the appropriate subclass.
-
-
 <!-- End Error Handling -->
 
 
@@ -96,13 +94,12 @@ You can override the default server globally using the `WithServerIndex` option 
 
 For example:
 
-
 ```go
 package main
 
 import (
 	"context"
-	"github.com/speakeasy-sdks/triple"
+	triple "github.com/speakeasy-sdks/triple/v2"
 	"log"
 )
 
@@ -129,13 +126,12 @@ func main() {
 
 The default server can also be overridden globally using the `WithServerURL` option when initializing the SDK client instance. For example:
 
-
 ```go
 package main
 
 import (
 	"context"
-	"github.com/speakeasy-sdks/triple"
+	triple "github.com/speakeasy-sdks/triple/v2"
 	"log"
 )
 

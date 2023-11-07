@@ -6,7 +6,7 @@ package main
 
 import (
 	"context"
-	"github.com/speakeasy-sdks/triple"
+	triple "github.com/speakeasy-sdks/triple/v2"
 	"log"
 )
 
