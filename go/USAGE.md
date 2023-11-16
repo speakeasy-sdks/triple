@@ -1,6 +1,4 @@
 <!-- Start SDK Example Usage -->
-
-
 ```go
 package main
 
@@ -8,6 +6,7 @@ import (
 	"context"
 	triple "github.com/speakeasy-sdks/triple/v2"
 	"log"
+	"net/http"
 )
 
 func main() {
