@@ -8,6 +8,7 @@ src/triple/utils/__init__.py
 src/triple/utils/retries.py
 src/triple/utils/utils.py
 src/triple/models/errors/sdkerror.py
+tests/helpers.py
 src/triple/models/operations/createpets.py
 src/triple/models/operations/listpets.py
 src/triple/models/operations/showpetbyid.py
