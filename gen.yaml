@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.121.3
-  generationVersion: 2.195.2
+  speakeasyVersion: 1.123.0
+  generationVersion: 2.202.2
 generation:
   comments: {}
   sdkClassName: triple
@@ -12,13 +12,13 @@ generation:
     optionalPropertyRendering: withExample
 features:
   go:
-    core: 3.1.0
-    globalServerURLs: 2.82.0
+    core: 3.1.5
+    globalServerURLs: 2.82.1
   python:
     core: 4.1.5
     globalServerURLs: 2.82.1
 go:
-  version: 2.0.0
+  version: 2.0.1
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
   imports:
@@ -29,8 +29,10 @@ go:
       operations: pkg/models/operations
       shared: pkg/models/shared
       webhooks: pkg/models/webhooks
+  inputModelSuffix: input
   installationURL: https://github.com/speakeasy-sdks/triple/go
   maxMethodParams: 0
+  outputModelSuffix: output
   packageName: github.com/speakeasy-sdks/triple
   published: true
   repoSubDirectory: go
