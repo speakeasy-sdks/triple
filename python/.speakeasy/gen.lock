@@ -1,0 +1,48 @@
+lockVersion: 2.0.0
+id: 092d2fe0-6a01-41eb-90dd-81e7436bf7b7
+management:
+  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.11.0
+  configChecksum: 8a7749a3075b4144657feb8c7ff0cb81
+  repoURL: https://github.com/speakeasy-sdks/triple.git
+  repoSubDirectory: python
+  installationURL: https://github.com/speakeasy-sdks/triple.git#subdirectory=python
+features:
+  python:
+    core: 4.4.0
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - src/triple/sdkconfiguration.py
+  - src/triple/pets.py
+  - src/triple/sdk.py
+  - pylintrc
+  - setup.py
+  - src/triple/__init__.py
+  - src/triple/utils/__init__.py
+  - src/triple/utils/retries.py
+  - src/triple/utils/utils.py
+  - src/triple/models/errors/sdkerror.py
+  - tests/helpers.py
+  - src/triple/models/operations/createpets.py
+  - src/triple/models/operations/listpets.py
+  - src/triple/models/operations/showpetbyid.py
+  - src/triple/models/shared/error.py
+  - src/triple/models/shared/pet.py
+  - src/triple/models/__init__.py
+  - src/triple/models/errors/__init__.py
+  - src/triple/models/operations/__init__.py
+  - src/triple/models/shared/__init__.py
+  - docs/models/operations/createpetsresponse.md
+  - docs/models/operations/listpetsrequest.md
+  - docs/models/operations/listpetsresponse.md
+  - docs/models/operations/showpetbyidrequest.md
+  - docs/models/operations/showpetbyidresponse.md
+  - docs/models/shared/error.md
+  - docs/models/shared/pet.md
+  - docs/sdks/triple/README.md
+  - docs/sdks/pets/README.md
+  - USAGE.md
+  - .gitattributes
