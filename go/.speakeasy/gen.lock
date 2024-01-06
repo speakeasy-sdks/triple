@@ -4,7 +4,7 @@ management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
+  generationVersion: 2.228.1
   releaseVersion: 2.1.0
   configChecksum: 8a7749a3075b4144657feb8c7ff0cb81
   repoURL: https://github.com/speakeasy-sdks/triple.git

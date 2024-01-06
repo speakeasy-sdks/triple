@@ -329,3 +329,11 @@ Based on:
 - [python v0.11.0] python
 ### Releases
 - [Go v2.1.0] https://github.com/speakeasy-sdks/triple/releases/tag/go/v2.1.0 - go
+
+## 2024-01-06 00:10:56
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.133.1 (2.228.1) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [python v0.11.1] python
