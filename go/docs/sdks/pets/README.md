@@ -17,7 +17,7 @@ Create a pet
 package main
 
 import(
-	triple "github.com/speakeasy-sdks/triple/v2"
+	triple "github.com/speakeasy-sdks/triple/v3"
 	"context"
 	"log"
 	"net/http"
@@ -62,9 +62,9 @@ List all pets
 package main
 
 import(
-	triple "github.com/speakeasy-sdks/triple/v2"
+	triple "github.com/speakeasy-sdks/triple/v3"
 	"context"
-	"github.com/speakeasy-sdks/triple/v2/pkg/models/operations"
+	"github.com/speakeasy-sdks/triple/v3/pkg/models/operations"
 	"log"
 )
 
@@ -108,9 +108,9 @@ Info for a specific pet
 package main
 
 import(
-	triple "github.com/speakeasy-sdks/triple/v2"
+	triple "github.com/speakeasy-sdks/triple/v3"
 	"context"
-	"github.com/speakeasy-sdks/triple/v2/pkg/models/operations"
+	"github.com/speakeasy-sdks/triple/v3/pkg/models/operations"
 	"log"
 )
 
