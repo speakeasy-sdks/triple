@@ -4,7 +4,7 @@ package triple
 
 import (
 	"fmt"
-	"github.com/speakeasy-sdks/triple/v6/pkg/utils"
+	"github.com/speakeasy-sdks/triple/v7/pkg/utils"
 	"net/http"
 	"time"
 )
@@ -115,9 +115,9 @@ func New(opts ...SDKOption) *Triple {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "6.0.0",
+			SDKVersion:        "7.0.0",
 			GenVersion:        "2.230.3",
-			UserAgent:         "speakeasy-sdk/go 6.0.0 2.230.3 1.0.0 github.com/speakeasy-sdks/triple",
+			UserAgent:         "speakeasy-sdk/go 7.0.0 2.230.3 1.0.0 github.com/speakeasy-sdks/triple",
 		},
 	}
 	for _, opt := range opts {
