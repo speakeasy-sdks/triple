@@ -18,7 +18,7 @@ package main
 
 import (
 	"context"
-	triple "github.com/speakeasy-sdks/triple/v7"
+	triple "github.com/speakeasy-sdks/triple/v8"
 	"log"
 	"net/http"
 )
@@ -81,8 +81,8 @@ package main
 import (
 	"context"
 	"errors"
-	triple "github.com/speakeasy-sdks/triple/v7"
-	"github.com/speakeasy-sdks/triple/v7/pkg/models/sdkerrors"
+	triple "github.com/speakeasy-sdks/triple/v8"
+	"github.com/speakeasy-sdks/triple/v8/pkg/models/sdkerrors"
 	"log"
 )
 
@@ -124,7 +124,7 @@ package main
 
 import (
 	"context"
-	triple "github.com/speakeasy-sdks/triple/v7"
+	triple "github.com/speakeasy-sdks/triple/v8"
 	"log"
 	"net/http"
 )
@@ -156,7 +156,7 @@ package main
 
 import (
 	"context"
-	triple "github.com/speakeasy-sdks/triple/v7"
+	triple "github.com/speakeasy-sdks/triple/v8"
 	"log"
 	"net/http"
 )
