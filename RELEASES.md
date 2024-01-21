@@ -443,3 +443,14 @@ Based on:
 - [python v0.20.0] python
 ### Releases
 - [Go v11.0.0] https://github.com/speakeasy-sdks/triple/releases/tag/go/v11.0.0 - go
+
+## 2024-01-21 00:39:44
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.148.0 (2.237.3) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [go v12.0.0] go
+- [python v0.21.0] python
+### Releases
+- [Go v12.0.0] https://github.com/speakeasy-sdks/triple/releases/tag/go/v12.0.0 - go
