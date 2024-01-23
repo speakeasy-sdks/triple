@@ -1,4 +1,4 @@
-module github.com/speakeasy-sdks/triple/v13
+module github.com/speakeasy-sdks/triple/v14
 
 go 1.20
 
