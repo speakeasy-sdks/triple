@@ -12,7 +12,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/speakeasy-sdks/triple/v15/pkg/types"
+	"github.com/speakeasy-sdks/triple/v16/pkg/types"
 
 	"github.com/ericlagergren/decimal"
 )
