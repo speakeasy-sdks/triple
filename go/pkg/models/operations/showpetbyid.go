@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"github.com/speakeasy-sdks/triple/v22/pkg/models/shared"
+	"github.com/speakeasy-sdks/triple/v23/pkg/models/shared"
 	"net/http"
 )
 

@@ -4,7 +4,7 @@ package main
 
 import (
 	"context"
-	triple "github.com/speakeasy-sdks/triple/v22"
+	triple "github.com/speakeasy-sdks/triple/v23"
 	"log"
 	"net/http"
 )
