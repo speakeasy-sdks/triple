@@ -594,3 +594,11 @@ Based on:
 - Speakeasy CLI 1.166.0 (2.248.6) https://github.com/speakeasy-api/speakeasy
 ### Generated
 - [python v0.34.0] python
+
+## 2024-02-04 00:11:30
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.166.0 (2.248.6) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [python v0.35.0] python
