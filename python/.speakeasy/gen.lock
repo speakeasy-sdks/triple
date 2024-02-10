@@ -4,9 +4,9 @@ management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.250.22
-  releaseVersion: 0.39.1
-  configChecksum: b94ba616b81eb29e7fe7c669527052c8
+  generationVersion: 2.252.2
+  releaseVersion: 0.39.2
+  configChecksum: 47662675261792786887a4b3fea97db8
   repoURL: https://github.com/speakeasy-sdks/triple.git
   repoSubDirectory: python
   installationURL: https://github.com/speakeasy-sdks/triple.git#subdirectory=python
