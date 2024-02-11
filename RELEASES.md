@@ -653,3 +653,11 @@ Based on:
 - Speakeasy CLI 1.177.1 (2.252.2) https://github.com/speakeasy-api/speakeasy
 ### Generated
 - [python v0.39.2] python
+
+## 2024-02-11 00:13:45
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.177.1 (2.252.2) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [python v0.39.3] python
