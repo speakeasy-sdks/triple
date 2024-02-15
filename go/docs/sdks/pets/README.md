@@ -119,7 +119,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.Pets.ShowPetByID(ctx, operations.ShowPetByIDRequest{
-        PetID: "string",
+        PetID: "<value>",
     })
     if err != nil {
         log.Fatal(err)
