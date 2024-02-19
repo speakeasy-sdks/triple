@@ -720,3 +720,11 @@ Based on:
 - Speakeasy CLI 1.183.2 (2.262.2) https://github.com/speakeasy-api/speakeasy
 ### Generated
 - [python v0.39.10] python
+
+## 2024-02-19 00:11:56
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.183.2 (2.262.2) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [python v0.39.11] python
