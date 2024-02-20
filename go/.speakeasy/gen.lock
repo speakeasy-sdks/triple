@@ -4,16 +4,16 @@ management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.262.2
-  releaseVersion: 24.7.4
-  configChecksum: a729307eda0e3d6ddc404533e3771a4b
+  generationVersion: 2.263.3
+  releaseVersion: 24.7.5
+  configChecksum: 29b26fb04486253ce317e4000480928f
   repoURL: https://github.com/speakeasy-sdks/triple.git
   repoSubDirectory: go
   installationURL: https://github.com/speakeasy-sdks/triple/go
   published: true
 features:
   go:
-    core: 3.4.0
+    core: 3.4.1
     globalServerURLs: 2.82.1
   python:
     core: 4.3.0
@@ -22,7 +22,6 @@ generatedFiles:
   - pets.go
   - triple.go
   - go.mod
-  - go.sum
   - pkg/models/sdkerrors/sdkerror.go
   - pkg/types/bigint.go
   - pkg/types/date.go
