@@ -801,3 +801,14 @@ Based on:
 - Speakeasy CLI 1.198.1 (2.275.4) https://github.com/speakeasy-api/speakeasy
 ### Generated
 - [python v0.40.0] python
+
+## 2024-03-02 00:14:05
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.200.0 (2.277.0) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [go v24.7.11] go
+- [python v0.40.1] python
+### Releases
+- [Go v24.7.11] https://github.com/speakeasy-sdks/triple/releases/tag/go/v24.7.11 - go
