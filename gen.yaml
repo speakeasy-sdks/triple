@@ -10,7 +10,7 @@ generation:
   auth:
     oAuth2ClientCredentialsEnabled: false
 go:
-  version: 24.7.12
+  version: 24.7.13
   additionalDependencies: {}
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
@@ -27,7 +27,7 @@ go:
   outputModelSuffix: output
   packageName: github.com/speakeasy-sdks/triple
 python:
-  version: 0.40.2
+  version: 0.40.3
   additionalDependencies:
     dependencies: {}
     extraDependencies:
