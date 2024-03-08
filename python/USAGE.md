@@ -7,8 +7,9 @@ s = triple.Triple()
 
 res = s.pets.create_pets()
 
-if res.status_code == 200:
+if res is not None:
     # handle response
     pass
+
 ```
 <!-- End SDK Example Usage [usage] -->
