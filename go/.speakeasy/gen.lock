@@ -5,8 +5,8 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 1.205.0
   generationVersion: 2.279.1
-  releaseVersion: 24.8.1
-  configChecksum: b829fde7ff5da6cb462a9fa93353ed73
+  releaseVersion: 24.8.2
+  configChecksum: 5609f55f5271ea3933072ad6f0a7d288
   repoURL: https://github.com/speakeasy-sdks/triple.git
   repoSubDirectory: go
   installationURL: https://github.com/speakeasy-sdks/triple/go
