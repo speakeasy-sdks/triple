@@ -942,3 +942,14 @@ Based on:
 - [python v0.41.7] python
 ### Releases
 - [Go v24.8.8] https://github.com/speakeasy-sdks/triple/releases/tag/go/v24.8.8 - go
+
+## 2024-03-18 00:35:55
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.209.3 (2.281.2) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [go v24.8.9] go
+- [python v0.41.8] python
+### Releases
+- [Go v24.8.9] https://github.com/speakeasy-sdks/triple/releases/tag/go/v24.8.9 - go
