@@ -10,7 +10,7 @@ generation:
   auth:
     oAuth2ClientCredentialsEnabled: false
 go:
-  version: 24.8.11
+  version: 24.8.12
   additionalDependencies: {}
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
@@ -28,7 +28,7 @@ go:
   packageName: github.com/speakeasy-sdks/triple
   responseFormat: envelope
 python:
-  version: 0.41.10
+  version: 0.41.11
   additionalDependencies:
     dependencies: {}
     extraDependencies:
