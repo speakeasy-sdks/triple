@@ -116,9 +116,9 @@ func New(opts ...SDKOption) *Triple {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "24.8.17",
-			GenVersion:        "2.287.0",
-			UserAgent:         "speakeasy-sdk/go 24.8.17 2.287.0 1.0.0 github.com/speakeasy-sdks/triple",
+			SDKVersion:        "24.8.18",
+			GenVersion:        "2.291.0",
+			UserAgent:         "speakeasy-sdk/go 24.8.18 2.291.0 1.0.0 github.com/speakeasy-sdks/triple",
 			Hooks:             hooks.New(),
 		},
 	}
