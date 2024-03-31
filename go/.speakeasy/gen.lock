@@ -3,10 +3,10 @@ id: b8abc47f-7981-4f2e-afa7-660d4968d840
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.227.0
-  generationVersion: 2.291.0
-  releaseVersion: 24.8.18
-  configChecksum: d488511ddab015bc70be68e0c3b358a2
+  speakeasyVersion: 1.228.1
+  generationVersion: 2.292.0
+  releaseVersion: 24.8.19
+  configChecksum: d330635a4a9646f74680c01687ccd826
   repoURL: https://github.com/speakeasy-sdks/triple.git
   repoSubDirectory: go
   installationURL: https://github.com/speakeasy-sdks/triple/go

@@ -1052,3 +1052,13 @@ Based on:
 - [go v24.8.18] go
 ### Releases
 - [Go v24.8.18] https://github.com/speakeasy-sdks/triple/releases/tag/go/v24.8.18 - go
+
+## 2024-03-31 00:12:17
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.228.1 (2.292.0) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [go v24.8.19] go
+### Releases
+- [Go v24.8.19] https://github.com/speakeasy-sdks/triple/releases/tag/go/v24.8.19 - go
