@@ -28,7 +28,7 @@ go:
   packageName: github.com/speakeasy-sdks/triple
   responseFormat: envelope
 python:
-  version: 0.41.18
+  version: 0.41.19
   additionalDependencies:
     dependencies: {}
     extraDependencies:
